@@ -10,9 +10,7 @@ public class RBTree<K, V> {
     private Node<K, V> root;
 
     /**
-     * <img class="marble" src="src/main/resources/picture/img.png" alt="">
      * 左旋
-     *
      * @param node
      */
     private void leftRotate(Node<K, V> node) {
